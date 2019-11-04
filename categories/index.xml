@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Kaiyu Hou|侯开宇</title>
-    <link>http://kyhou.com/categories/</link>
-    <description>Recent content in Categories on Kaiyu Hou|侯开宇</description>
+    <title>Categories on Kaiyu Hou | 侯开宇</title>
+    <link>http://kaiyu.tk/categories/</link>
+    <description>Recent content in Categories on Kaiyu Hou | 侯开宇</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us, zh-cn</language>
     
-	<atom:link href="http://kyhou.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://kaiyu.tk/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
