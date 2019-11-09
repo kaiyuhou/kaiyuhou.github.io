@@ -16,9 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://kaiyu.tk/bnk_index/</guid>
-      <description>Hugo learn theme Hugo-theme-learn is a theme for Hugo, a fast and modern static website engine written in Go. Where Hugo is often used for blogs, this multilingual-ready theme is fully designed for documentation.
-This theme is a partial porting of the Learn theme of Grav, a modern flat-file CMS written in PHP.
-Main features Contribute to this documentation Feel free to update this content, just click the Edit this page link displayed on top right of each page, and pullrequest it</description>
+      <description>Hugo learn theme This is a theme</description>
     </item>
     
   </channel>
