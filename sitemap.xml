@@ -3,20 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://kaiyu.tk/basics/</loc>
+    <loc>https://kaiyu.tk/basics/</loc>
     <lastmod>2019-11-04T16:23:12-06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://kaiyu.tk/categories/</loc>
+    <loc>https://kaiyu.tk/categories/</loc>
   </url>
   
   <url>
-    <loc>http://kaiyu.tk/</loc>
+    <loc>https://kaiyu.tk/bnk_index/</loc>
   </url>
   
   <url>
-    <loc>http://kaiyu.tk/tags/</loc>
+    <loc>https://kaiyu.tk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kaiyu.tk/tags/</loc>
   </url>
   
 </urlset>

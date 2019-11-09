@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.chapter_header {
+	margin-top:12px;
+	margin-bottom:12px;
+	text-align:center;
+	font-size: 24px;
+}
+
+#headingTwo a:visited {
+	color: #21759b;
+}
+
+#mike_main a{
+	text-decoration:none;
+	color:#21759b;
+}
+#mike_main a:visited{
+	text-decoration:none;
+	color:#21759b;
+}
+
+div.full-width .site-content {
+		width: 100%;
+}
+
+
+/*for remove the margin of image from learn css*/
+#content img{
+	vertical-align: middle;
+	-webkit-box-shadow: none; 
+	-moz-box-shadow: none; 
+	box-shadow: none;
+	margin: 0px;
+	display: inline;
+}
+
+
+/*for reset the line height of tag a in home page*/
+#content a.highlight {
+	line-height: 1.714285714;
+}
+
+/*for reset the h1 in the home page*/
+#name-h1{
+	margin-top: 0px; 
+	margin-bottom: 0px; 
+	font-size: 24px; 
+	font-family: Times;
+	color: #242d36;
+	text-transform: none;
+	text-align: left;
+}

@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Basics on Kaiyu Hou | 侯开宇</title>
-    <link>http://kaiyu.tk/basics/</link>
+    <link>https://kaiyu.tk/basics/</link>
     <description>Recent content in Basics on Kaiyu Hou | 侯开宇</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us, zh-cn</language>
     <lastBuildDate>Mon, 04 Nov 2019 16:23:12 -0600</lastBuildDate>
     
-	<atom:link href="http://kaiyu.tk/basics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kaiyu.tk/basics/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
