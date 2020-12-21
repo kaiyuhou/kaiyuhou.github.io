@@ -98,6 +98,7 @@ footer {
 
 #information-photo {
 	width: 35%;
+	max-width: 170px;
 	float: left;
 	padding-right: 15px;
 }
@@ -110,7 +111,7 @@ footer {
 
 #information-photo img {
 	max-width: 100%;
-	max-height: 250px;
+	max-height: 230px;
 	border-radius: 10px;
 }
 
