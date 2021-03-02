@@ -286,10 +286,10 @@ footer {
 		display: none;
 	}
 
-	.year-right {
-		text-align: left;
-		margin-top: 5px;
-	}
+	/*.year-right {*/
+	/*	text-align: left;*/
+	/*	margin-top: 5px;*/
+	/*}*/
 
 	/*.chapter-header {*/
 	/*	text-align:left;*/
