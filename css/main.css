@@ -234,6 +234,11 @@ footer {
 	margin: 24px 0 0;
 }
 
+.research p {
+	margin-left: 16px;
+}
+
+
 @media screen and (min-width: 600px) {
 	.site {
 		margin: 0 auto 0 110px;
@@ -284,6 +289,11 @@ footer {
 
 	.sub-li {
 		display: none;
+	}
+
+	.research p {
+		margin-bottom: 6px;
+		margin-left: 6px;
 	}
 
 	/*.year-right {*/

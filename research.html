@@ -31,8 +31,8 @@
             <a href="index.html" target="_self"><li>Home</li></a>
 
             <a href="#" target="_self"><li class="select">Research</li></a>
-            <a href="#" target="_self"><li class="sub-li">Cloud</li></a>
-            <a href="#" target="_self"><li class="sub-li">Protocols</li></a>
+            <a href="#sdn-cloud" target="_self"><li class="sub-li">Cloud&SDN</li></a>
+            <a href="#protocols" target="_self"><li class="sub-li">Protocol Verification</li></a>
 
             <a href="awards.html" target="_self"><li>Awards</li></a>
             <a href="misc.html" target="_self"><li>Misc</li></a>
@@ -40,23 +40,66 @@
     </header>
 
     <div class="site"><!--set padding for the whole page-->
-
         <div class="wrapper"><!--wrapper for the main content-->
             <div id="primary" class="site-content"><!--set top margin for the whole content-->
-                <div id="content" role="main" class="container"><!--id content defined font and font-size-->
-
-                    <div id="research">
-                        <div class="chapter-header"><span>Research</span></div>
-                        <div class="row">
-                            <p> Under Construction ... </p>
+                <div id="content" role="main" class="container research"><!--id content defined font and font-size-->
+                    <div id="research-sdn-cloud">
+                        <div class="chapter-header" id="sdn-cloud"><span>SDN & Cloud</span></div>
+                        <div class="row row-margin-bottom">
+                            <div class="col-md-10"><b>Network Optimizing for Microservices / Serverless Cloud</b> (work in progress)</div>
+                            <div class="col-md-2 year-right">2020 &#8211; Present</div>
                         </div>
+                        <div class="row col-md-12">
+                            <p>Microservices/serverless architectures bring flexibility but introduce network communication delay.</p>
+                            <p>Integrated <b>QUIC</b> into <b>OpenFaaS/Kubernetes</b> to improve serverless network performance.</p>
+                            <p>Designed systematic metrics to provide a benchmark for the microservices network performance.</p>
+                        </div>
+                        <hr /><!-- END: QUIC block-->
+                        <div class="row row-margin-bottom">
+                            <div class="col-md-10"><b>Generic Security Policy Enforcement System for SDN-based Cloud</b></div>
+                            <div class="col-md-2 year-right">2017 &#8211; 2018</div>
+                        </div>
+                        <div class="row col-md-12">
+                            <p>Designed a <b>policy language</b> for resource protection and management of <b>SDN-based Cloud</b>.</p>
+                            <p>Implemented in the OpenDaylight controller, and deployed on OpenStack.</p>
+                        </div>
+                        <hr /><!-- END: SDNKeeper block-->
+                        <div class="row row-margin-bottom">
+                            <div class="col-md-10"><b>Routing Policy for Solving Reactive Model Overhead of SDN</b></div>
+                            <div class="col-md-2 year-right">2016 &#8211; 2017</div>
+                        </div>
+                        <div class="row col-md-12">
+                            <p>Proposed a routing policy to reduce the SDN control channel bandwidth consumption up to 80%.</p>
+                            <p>Implemented in the Floodlight controller under the <b>OpenFlow</b> protocol with <b>Open vSwitch</b>.</p>
+                            <p>Deployed on the ONetSwitch, an <b>OpenFlow/P4</b> white-box switch with Xilinx FPGA.</p>
+                        </div><!--END: div sdn-cloud-->
+                        <div class="chapter-header" id="protocols"><span>Formal Methods for Network Protocols</span></div>
+                        <div class="row row-margin-bottom">
+                            <div class="col-md-10"><b>Formal Secure Configuration Search for Network Protocols</b></div>
+                            <div class="col-md-2 year-right">2020 &#8211; 2021</div>
+                        </div>
+                        <div class="row col-md-12">
+                            <p>Traditionally, researchers use secure properties to verify a protocol is safe or find counterexamples.</p>
+                            <p>We convert this decision problem into a search problem. Given the model and the properties, we search the boundaries of the configuration space where the system is always secure and reliable.</p>
+                            <p>We employ inductive generalization and improved <b>IC3</b> algorithm to determine the space.</p>
+                        </div>
+                        <hr /><!-- END: safeConfig block-->
+                        <div class="row row-margin-bottom">
+                            <div class="col-md-10"><b>Formal Verification and Vulnerability Detection of LTE/5G Protocols</b></div>
+                            <div class="col-md-2 year-right">2019 &#8211; 2020</div>
+                        </div>
+                        <div class="row col-md-12">
+                            <p>Used <b>TLA+</b> to formally specify the emergency call systems in <b>4G/5G</b> cellular network protocols.</p>
+                            <p>Built a complete cellular network testbed from <b>RAN, edge to core</b> (USRP, OpenAirInterface) for real-world verification.</p>
+                            <p>Discovered serious availability and security issues in real-world, <b>acknowledged by major cellular network carriers</b>.</p>
+                        </div><!-- END: SDNKeeper block-->
                     </div><!--END: div reserach-->
 
                 </div><!--END: div #content-->
             </div><!-- #primary -->
         </div><!-- #main .wrapper -->
         <footer>
-            <p>Last Update: 2020-12-26</p>
+            <p>Last Update: 2021-03-16</p>
             <p>Visitors:
                 <script type="text/javascript">
                     var sc_project=12452388;var sc_invisible=0;var sc_security="e6d6e18b";var scJsHost = "https://";
