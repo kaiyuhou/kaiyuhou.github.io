@@ -238,6 +238,10 @@ footer {
 	margin-left: 16px;
 }
 
+.glyphicon-collapse-down {
+	font-size: 110%;
+}
+
 
 @media screen and (min-width: 600px) {
 	.site {

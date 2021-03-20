@@ -51,8 +51,10 @@
                         </div>
                         <div class="row col-md-12">
                             <p>Microservices/serverless architectures bring flexibility but introduce network communication delay.</p>
-                            <p>Integrated <b>QUIC</b> into <b>OpenFaaS/Kubernetes</b> to improve serverless network performance.</p>
-                            <p>Designed systematic metrics to provide a benchmark for the microservices network performance.</p>
+<!--                            Especially for the serverless, connection setup latency for the auto scaled ephemeral workers is painful.</p>-->
+                            <p>The connection setup latency is no longer negligible for auto-scaled ephemeral workers, as we cannot simply mitigate it by using persistent connections.</p>
+                            <p>We seamlessly integrate <b>QUIC</b> into <b>OpenFaaS/Kubernetes</b> to improve network performance, without any user code change.</p>
+                            <p>Systematic benchmarks are also designed for the microservices/serverless network performance measurement.</p>
                         </div>
                         <hr /><!-- END: QUIC block-->
                         <div class="row row-margin-bottom">
@@ -60,8 +62,8 @@
                             <div class="col-md-2 year-right">2017 &#8211; 2018</div>
                         </div>
                         <div class="row col-md-12">
-                            <p>Designed a <b>policy language</b> for resource protection and management of <b>SDN-based Cloud</b>.</p>
-                            <p>Implemented in the OpenDaylight controller, and deployed on OpenStack.</p>
+                            <p>We design a <b>policy language</b> for resource protection and management of <b>SDN-based Cloud</b>.</p>
+                            <p>The policy enforcement system is implemented in the OpenDaylight controller, and deployed on <b>OpenStack</b>.</p>
                         </div>
                         <hr /><!-- END: SDNKeeper block-->
                         <div class="row row-margin-bottom">
@@ -69,9 +71,9 @@
                             <div class="col-md-2 year-right">2016 &#8211; 2017</div>
                         </div>
                         <div class="row col-md-12">
-                            <p>Proposed a routing policy to reduce the SDN control channel bandwidth consumption up to 80%.</p>
-                            <p>Implemented in the Floodlight controller under the <b>OpenFlow</b> protocol with <b>Open vSwitch</b>.</p>
-                            <p>Deployed on the ONetSwitch, an <b>OpenFlow/P4</b> white-box switch with Xilinx FPGA.</p>
+                            <p>SDN control channel bandwidth is the major bottleneck of applying reactive forwarding.</p>
+                            <p>By leveraging the SDN fine-grained flow control ability, we proposed a routing policy to reduce the control channel bandwidth consumption up to 80%.</p>
+                            <p>This policy is implemented in the Floodlight controller under <b>OpenFlow</b>, and deployed on <b>Open vSwitch</b> and ONetSwitch (an <b>OpenFlow/P4</b> white-box switch).</p>
                         </div><!--END: div sdn-cloud-->
                         <div class="chapter-header" id="protocols"><span>Formal Methods for Network Protocols</span></div>
                         <div class="row row-margin-bottom">
@@ -89,9 +91,10 @@
                             <div class="col-md-2 year-right">2019 &#8211; 2020</div>
                         </div>
                         <div class="row col-md-12">
-                            <p>Used <b>TLA+</b> to formally specify the emergency call systems in <b>4G/5G</b> cellular network protocols.</p>
-                            <p>Built a complete cellular network testbed from <b>RAN, edge to core</b> (USRP, OpenAirInterface) for real-world verification.</p>
-                            <p>Discovered serious availability and security issues in real-world, <b>acknowledged by major cellular network carriers</b>.</p>
+                            <p>This project aims to formally detect vulnerabilities in <b>3GPP</b> protocols.</p>
+                            <p>The <b>4G/5G</b> emergency call protocols and systems are formally specified in <b>TLA+</b>, and then checked by model checker.</p>
+                            <p>A complete cellular network testbed from <b>RAN</b>, <b>edge</b> to <b>core</b> (USRP, OpenAirInterface) is built for cross-verification.</p>
+                            <p>Serious real-world availability and security pitfalls are discovered, and <b>acknowledged by major cellular carriers</b>.</p>
                         </div><!-- END: SDNKeeper block-->
                     </div><!--END: div reserach-->
 
@@ -99,7 +102,7 @@
             </div><!-- #primary -->
         </div><!-- #main .wrapper -->
         <footer>
-            <p>Last Update: 2021-03-16</p>
+            <p>Last Update: 2021-03-20</p>
             <p>Visitors:
                 <script type="text/javascript">
                     var sc_project=12452388;var sc_invisible=0;var sc_security="e6d6e18b";var scJsHost = "https://";
