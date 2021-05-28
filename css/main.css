@@ -208,7 +208,7 @@ footer {
 	font-size: 11px;
 	overflow-x: scroll;
 	height:190px;
-	padding: 10px 10px 10px 8px;
+	padding: 10px 10px 10px 10px;
 	opacity: 0.95;
 	white-space: nowrap;
 }
