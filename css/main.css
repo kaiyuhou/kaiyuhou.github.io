@@ -198,6 +198,15 @@ footer {
 	border-radius: 10px;
 }
 
+#information-news a {
+	color: #333333;
+}
+
+#information-news a:hover {
+	text-decoration: none;
+	color: #21759b;
+}
+
 #information-news .panel-heading {
 	padding: 0;
 	font-size: 16px;
