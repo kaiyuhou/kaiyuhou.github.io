@@ -42,6 +42,10 @@ footer {
 	text-align: center;
 }
 
+strong {
+	color: hsl(0, 50%, 50%);
+}
+
 /* Clearing floats */
 .wrapper:after {
 	clear: both;
@@ -318,3 +322,6 @@ footer {
 	/*	text-align:left;*/
 	/*}*/
 }
+
+
+
