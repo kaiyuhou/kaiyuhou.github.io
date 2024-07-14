@@ -71,6 +71,9 @@
                 <div class="panel-heading"><span class="label label-info">News</span></div>
                 <div class="panel-body">
                   <ul>
+                    <li><a href="#www24" target="_self">2024-01: DirectFaaS accepted on WWW&#8217;24</a></li>
+                    <li><a href="#europ423" target="_self">2023-10: Lantern accepted on EuroP4&#8217;23</a></li>
+                    <li><a href="#socc22" target="_self">2022-09: QFaaS accepted on SoCC&#8217;22</a></li>
                     <li>2022-09: I joined Alibaba Cloud as Senior Engineer</li>
                     <li>2022-04: I passed my Ph.D. thesis defense</li>
                     <li><a href="#conext21" target="_self">2021-10: QFaaS accepted on CoNEXT&#8217;21 as poster</a></li>
@@ -91,7 +94,7 @@
           <div id="about-me">
             <div class="chapter-header"><span>About Me</span></div>
             <div class="row">
-              <p>I am a Senior Engineer of Kangaroo Network Group at Alibaba Cloud now. 
+              <p>I am a Senior Engineer of Kangaroo (<a href="https://www.usenix.org/conference/atc22/presentation/li-zijun-rund">RunD</a>) Network Group at Alibaba Cloud now. 
                 My job focuses on improving networking foundations for cloud native systems, aiming to provide flexible and efficient networks within containers and above cloud VPCs.</p> 
               <p>I reveived my Ph.D. degress in computer science in 2022 from Northwestern University, under the guidance of Prof. <a href="http://www.cs.northwestern.edu/~ychen/" target="_blank">Yan Chen</a>.</p>
               <p><b>Research Interests:</b> I have a broad interest in various aspects of <b>cloud networks</b>, <b>networked systems</b>, and <b>network protocols</b>.
@@ -161,6 +164,19 @@
             <div class="chapter-header"><span>Work Experience</span></div>
             <div class="row row-margin-bottom">
               <div class="col-md-9">
+                <b>Alibaba Cloud</b> <a href="https://www.alibabacloud.com"><img class="img-logo" src="img/icon/alibaba_cloud_logo.png" alt="Alibaba Cloud" height="22px" /></a><br />
+                Senior Engineer, at Kangaroo Network Group
+              </div>
+              <div class="col-md-3 year-right">Shanghai, China<br />Sep. 2022 &#8211; Present</div>
+            </div>
+            <div class="row col-md-12">Aiming to provide flexible and efficient networks within containers and above cloud VPCs:<br/>
+              - Serverless and multi-tenant network foundations for <a href="https://www.alibabacloud.com/en/product/function-compute">Function Compute</a><br/>
+              - Pod network QoS in multi-tenant K8s environment (<a href="https://www.aliyun.com/product/acs">ACS</a>)<br/>
+              - <a href="https://www.alibabacloud.com/help/en/flink/product-overview/network-architecture-upgrade">Serverless network architecture</a> design for  <a href="https://www.alibabacloud.com/en/product/realtime-compute">Flink</a>
+            </div>
+            <hr /><!-- END: experience Alibaba Cloud -->
+            <div class="row row-margin-bottom">
+              <div class="col-md-9">
                 <b>SRI International</b><a href="https://en.wikipedia.org/wiki/SRI_International"><img class="img-logo" src="data/logo/sri_logo.png" alt="SRI International" height="20px" /></a><br />
                 Senior Research Intern, at Computer Science Laboratory
               </div>
@@ -199,6 +215,52 @@
           </div><!-- END: div experience -->
           <div id="chapter-publication">
             <div class="chapter-header"><span>Publication</span></div>
+            <div class="row" id="www24">
+              <div class="col-md-10">
+                <ul>
+                  <li><a href="/paper/2024/WWW24_DirectFaaS_AuthorVersion.pdf" target="_blank"><b>DirectFaaS: A Clean-Slate Network Architecture for Efficient Serverless Chain Communications</b></a><br />
+                    Qingyang Zeng, <b>Kaiyu Hou</b>, Xue Leng, Yan Chen<br />
+                    ACM The Web Conference 2024 (<a href="https://www2024.thewebconf.org/" target="_blank">WWW</a>), 2024.<br />
+                    <a href="/paper/2024/WWW24_DirectFaaS_AuthorVersion.pdf" target="_blank"><span class="label label-primary">Paper</span></a>
+                    <a href="#" target="_blank"><span class="label label-warning">Poster</span></a>
+                    <a href="https://dl.acm.org/doi/10.1145/3589334.3645333" target="_blank"><span class="label label-info">ACM Library</span></a>
+                    
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-2" style="text-align: right;">May. 2024</div>
+            </div>
+            <div class="row" id="europ423">
+              <div class="col-md-10">
+                <ul>
+                  <li><a href="/paper/2023/EuroP4_23_Lantern_AuthorVersion.pdf" target="_blank"><b>LANTERN: Layered Adaptive Network Telemetry Collection for Programmable Dataplanes</b></a><br />
+                    <b>Kaiyu Hou</b>, Dhiraj Saharia, Vinod Yegneswaran, Phillip Porras<br />
+                    6th European P4 Workshop (<a href="https://opennetworking.org/events/euro-p4-2022/" target="_blank">EuroP4</a>), 2023.<br />
+                    <a href="/paper/2023/EuroP4_23_Lantern_AuthorVersion.pdf" target="_blank"><span class="label label-primary">Paper</span></a>
+                    <a href="/paper/2023/EuroP4_23_Lantern_Slides.pdf" target="_blank"><span class="label label-success">Slides</span></a>
+                    <a href="https://dl.acm.org/doi/10.1145/3630047.3630194" target="_blank"><span class="label label-info">ACM Library</span></a>
+                    
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-2" style="text-align: right;">Dec. 2023</div>
+            </div>
+            <div class="row" id="socc22">
+              <div class="col-md-10">
+                <ul>
+                  <li><a href="/paper/2022/SoCC22_QFaaS_AuthorVersion.pdf" target="_blank"><b>QFaaS: Accelerating and Securing Serverless Cloud Networks with QUIC</b></a><br />
+                    <b>Kaiyu Hou</b>, Sen Lin, Yan Chen, Vinod Yegneswaran<br />
+                    ACM 13th Symposium on Cloud Computing (<a href="https://acmsocc.org/2022/index.html" target="_blank">SoCC</a>), 2022.<br />
+                    <a href="/paper/2022/SoCC22_QFaaS_AuthorVersion.pdf" target="_blank"><span class="label label-primary">Paper</span></a>
+                    <a href="/paper/2022/SoCC22_QFaaS_Slides_Sen.pdf" target="_blank"><span class="label label-success">Slides</span></a>
+                    <a href="https://dl.acm.org/doi/10.1145/3542929.3563458" target="_blank"><span class="label label-info">ACM Library</span></a>
+                    <a href="https://github.com/qfaas-project" target="_blank"><span class="label label-default"><img class="img-logo" src="data/logo/github_logo.png" alt="Github" height="16px" /> GitHub</span></a>
+
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-2" style="text-align: right;">Nov. 2022</div>
+            </div>
             <div class="row" id="mobisys21">
               <div class="col-md-10">
                 <ul>
@@ -220,43 +282,49 @@
               </div>
               <div class="col-md-2" style="text-align: right;">Jun. 2021</div>
             </div>
-            <div class="row">
+            <div class="row" id="iwqos18">
               <div class="col-md-10">
                 <ul>
-                  <li><a href="/paper/IWQoS_18_SDNKeeper_AuthorVersion.pdf" target="_blank"><b>SDNKeeper: Lightweight Resource Protection and Management System for SDN-based Cloud</b></a><br />
+                  <li><a href="/paper/2018/IWQoS18_SDNKeeper_AuthorVersion.pdf" target="_blank"><b>SDNKeeper: Lightweight Resource Protection and Management System for SDN-based Cloud</b></a><br />
                     Xue Leng, <b>Kaiyu Hou</b>, Yan Chen, Kai Bu, Libin Song<br />
                     IEEE/ACM 26th International Symposium on Quality of Service (<a href="http://iwqos2018.ieee-iwqos.org/" target="_blank">IWQoS</a>), 2018.<br />
-                    <a href="/paper/IWQoS_18_SDNKeeper_AuthorVersion.pdf" target="_blank"><span class="label label-primary" style="font-size: 11px;">Paper</span></a>
-                    <a href="/paper/IWQoS2018_SDNKeeper_Slides.pdf" target="_blank"><span class="label label-success" style="font-size: 11px;">Slides</span></a>
-                    <a href="https://ieeexplore.ieee.org/document/8624135/" target="_blank"><span class="label label-info" style="font-size: 11px;">IEEE Library</span></a>
+                    <a href="/paper/2018/IWQoS18_SDNKeeper_AuthorVersion.pdf" target="_blank"><span class="label label-primary">Paper</span></a>
+                    <a href="/paper/2018/IWQoS18_SDNKeeper_Slides.pdf" target="_blank"><span class="label label-success">Slides</span></a>
+                    <a href="https://ieeexplore.ieee.org/document/8624135/" target="_blank"><span class="label label-info">IEEE Library</span></a>
                     <a href="https://github.com/lxv458/sloth" target="_blank"><span class="label label-default"><img class="img-logo" src="data/logo/github_logo.png" alt="Github" height="16px" /> GitHub</span></a>
                   </li>
                 </ul>
               </div>
               <div class="col-md-2" style="text-align: right;">Jun. 2018</div>
             </div>
-            <div class="row">
+            <div class="row" id="icnp17">
               <div class="col-md-9">
                 <ul>
-                  <li><a href="/paper/ICNP17_SoftRing_AuthorVersion.pdf" target="_blank"><b>SoftRing: Taming the Reactive Model for Software Defined Networks</b></a><br />
+                  <li><a href="/paper/2017/ICNP17_SoftRing_AuthorVersion.pdf" target="_blank"><b>SoftRing: Taming the Reactive Model for Software Defined Networks</b></a><br />
                     Chengchen Hu, <b>Kaiyu Hou</b>* (1st student author), Hao Li, Ruilong Wang, Peng Zheng, Peng Zhang, Huanzhao Wang<br />
                     IEEE 25th International Conference on Network Protocols (<a href="http://iqua.ece.toronto.edu/icnp17/" target="_blank">ICNP</a>), 2017.<br />
-                    <a href="/paper/ICNP17_SoftRing_AuthorVersion.pdf" target="_blank"><span class="label label-primary" style="font-size: 11px;">Paper</span></a> <a href="/paper/ICNP-SoftRing-without-Video.pptx" target="_blank"><span class="label label-success" style="font-size: 11px;">Slides</span></a> <a href="http://ieeexplore.ieee.org/document/8117558/" target="_blank"><span class="label label-info" style="font-size: 11px;">IEEE Library</span></a></li>
+                    <a href="/paper/2017/ICNP17_SoftRing_AuthorVersion.pdf" target="_blank"><span class="label label-primary">Paper</span></a>
+                    <a href="/paper/2017/ICNP17_SoftRing_Slides.pdf" target="_blank"><span class="label label-success">Slides</span></a>
+                    <a href="http://ieeexplore.ieee.org/document/8117558/" target="_blank"><span class="label label-info">IEEE Library</span></a>
+                  </li>
                 </ul>
               </div>
               <div class="col-md-3" style="text-align: right;">Oct. 2017</div>
             </div>
-            <div class="row">
+            <div class="row" id="iwqos17">
               <div class="col-md-9">
                 <ul>
-                  <li><a href="/paper/IWQoS17_COIN_AuthorVersion.pdf" target="_blank"><b>Towards A Fast Packet Inspection over Compressed HTTP Traffic</b></a><br />
+                  <li><a href="/paper/2017/IWQoS17_COIN_AuthorVersion.pdf" target="_blank"><b>Towards A Fast Packet Inspection over Compressed HTTP Traffic</b></a><br />
                     Xiuwen Sun, <b>Kaiyu Hou</b>, Hao Li, Chengchen Hu<br />
                     IEEE/ACM 25th International Symposium on Quality of Service (<a href="http://iwqos2017.ieee-iwqos.org/" target="_blank">IWQoS</a>), 2017.<br />
-                    <a href="/paper/IWQoS17_COIN_AuthorVersion.pdf" target="_blank"><span class="label label-primary" style="font-size: 11px;">Paper</span></a> <a href="/paper/COIN_Slides.pdf" target="_blank"><span class="label label-success" style="font-size: 11px;">Slides</span></a> <a href="http://ieeexplore.ieee.org/document/7969144/" target="_blank"><span class="label label-info" style="font-size: 11px;">IEEE Library</span></a></li>
+                    <a href="/paper/2017/IWQoS17_COIN_AuthorVersion.pdf" target="_blank"><span class="label label-primary">Paper</span></a>
+                    <a href="/paper/2017/IWQoS17_COIN_Slides.pdf" target="_blank"><span class="label label-success">Slides</span></a>
+                    <a href="http://ieeexplore.ieee.org/document/7969144/" target="_blank"><span class="label label-info">IEEE Library</span></a></li>
                 </ul>
               </div>
               <div class="col-md-3" style="text-align: right;">May. 2017</div>
             </div>
+            <hr/>
             <div class="row">
               <div class="col-md-12" class="panel-heading" style="text-align: center;">
                 <b>Poster</b>
@@ -268,7 +336,10 @@
                   <li><a href="/paper/2021/CoNext21_QFaaS_AuthorVersion.pdf" target="_blank"><b>Accelerate and Secure Serverless Networks with QUIC</b></a><br />
                     <b>Kaiyu Hou</b>, Sen Lin, Yan Chen, Vinod Yegneswaran<br />
                     International Conference on Emerging Networking EXperiments and Technologies (<a href="https://conferences2.sigcomm.org/co-next/2021/" target="_blank">CoNEXT</a>, Poster), 2021.<br />
-                    <a href="/paper/2021/CoNext21_QFaaS_AuthorVersion.pdf" target="_blank"><span class="label label-primary" style="font-size: 11px;">Paper</span></a> <a href="/paper/2021/CoNext21_QFaaS_Poster.pdf" target="_blank"><span class="label label-warning" style="font-size: 11px;">Poster</span></a> <a href="https://dl.acm.org/doi/abs/10.1145/3485983.3493350" target="_blank"><span class="label label-info" style="font-size: 11px;">ACM Library</span></a></li>
+                    <a href="/paper/2021/CoNext21_QFaaS_AuthorVersion.pdf" target="_blank"><span class="label label-primary">Paper</span></a>
+                    <a href="/paper/2021/CoNext21_QFaaS_Poster.pdf" target="_blank"><span class="label label-warning">Poster</span></a>
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3485983.3493350" target="_blank"><span class="label label-info">ACM Library</span></a>
+                  </li>
                 </ul>
               </div>
               <div class="col-md-2" style="text-align: right;">Dec. 2021</div>
@@ -276,10 +347,14 @@
             <div class="row" id="sigcomm20">
               <div class="col-md-10">
                 <ul>
-                  <li><a href="/paper/Sigcomm20_SecOption_AuthorVersion.pdf" target="_blank"><b>Network Protocol Safe Configuration Search in One Shot</b></a><br />
+                  <li><a href="/paper/2020/Sigcomm20_SecOption_AuthorVersion.pdf" target="_blank"><b>Network Protocol Safe Configuration Search in One Shot</b></a><br />
                     You Li*, <b>Kaiyu Hou</b>*, Hai Zhou, Yan Chen (*equal contribution)<br />
                     ACM Special Interest Group on Data Communication Annual Conference (<a href="https://conferences.sigcomm.org/sigcomm/2020/" target="_blank">SIGCOMM</a>, Poster), 2020.<br />
-                    <a href="/paper/Sigcomm20_SecOption_AuthorVersion.pdf" target="_blank"><span class="label label-primary" style="font-size: 11px;">Paper</span></a> <a href="/paper/Sigcomm20_SecOption_Poster.pdf" target="_blank"><span class="label label-warning" style="font-size: 11px;">Poster</span></a> <a href="/paper/Sigcomm20_SecOption_Photo.png" target="_blank"><span class="label label-default" style="font-size: 11px;">Galary</span></a> <a href="https://doi.org/10.1145/3405837.3411377" target="_blank"><span class="label label-info" style="font-size: 11px;">ACM Library</span></a></li>
+                    <a href="/paper/2020/Sigcomm20_SecOption_AuthorVersion.pdf" target="_blank"><span class="label label-primary">Paper</span></a>
+                    <a href="/paper/2020/Sigcomm20_SecOption_Poster.pdf" target="_blank"><span class="label label-warning">Poster</span></a>
+                    <a href="/paper/2020/Sigcomm20_SecOption_Photo.png" target="_blank"><span class="label label-default">Galary</span></a>
+                    <a href="https://doi.org/10.1145/3405837.3411377" target="_blank"><span class="label label-info">ACM Library</span></a>
+                  </li>
                 </ul>
               </div>
               <div class="col-md-2" style="text-align: right;">Aug. 2020</div>
@@ -287,14 +362,19 @@
             <div class="row" id="sigcomm19">
               <div class="col-md-10">
                 <ul>
-                  <li><a href="/paper/Sigcomm19_CellScope_AuthorVersion.pdf" target="_blank"><b>CellScope: Automatically Specifying and Verifying Cellular Network Protocols</b></a><br />
+                  <li><a href="/paper/2019/Sigcomm19_CellScope_AuthorVersion.pdf" target="_blank"><b>CellScope: Automatically Specifying and Verifying Cellular Network Protocols</b></a><br />
                     Yinbo Yu, You Li, <b>Kaiyu Hou</b>, Yan Chen, Hai Zhou, Jianfeng Yang<br />
                     ACM Special Interest Group on Data Communication Annual Conference (<a href="https://conferences.sigcomm.org/sigcomm/2019/" target="_blank">SIGCOMM</a>, Poster), 2019.<br />
-                    <a href="/paper/Sigcomm19_CellScope_AuthorVersion.pdf" target="_blank"><span class="label label-primary" style="font-size: 11px;">Paper</span></a> <a href="/paper/Sigcomm19_CellScope_Poster.pdf" target="_blank"><span class="label label-warning" style="font-size: 11px;">Poster</span></a> <a href="/paper/Sigcomm19_CellScope_SRC_Slides.pdf" target="_blank"><span class="label label-success" style="font-size: 11px;">Slides</span></a> <a href="https://dl.acm.org/citation.cfm?id=3342294" target="_blank"><span class="label label-info" style="font-size: 11px;">ACM Library</span></a></li>
+                    <a href="/paper/2019/Sigcomm19_CellScope_AuthorVersion.pdf" target="_blank"><span class="label label-primary">Paper</span></a>
+                    <a href="/paper/2019/Sigcomm19_CellScope_Poster.pdf" target="_blank"><span class="label label-warning">Poster</span></a>
+                    <a href="/paper/2019/Sigcomm19_CellScope_SRC_Slides.pdf" target="_blank"><span class="label label-success">Slides</span></a>
+                    <a href="https://dl.acm.org/citation.cfm?id=3342294" target="_blank"><span class="label label-info">ACM Library</span></a>
+                  </li>
                 </ul>
               </div>
               <div class="col-md-2" style="text-align: right;">Aug. 2019</div>
             </div>
+            <hr/>
             <div class="row">
               <div class="col-md-12" class="panel-heading" style="text-align: center;">
                 <b>Journal</b>
@@ -303,7 +383,8 @@
             <div class="row" id="internetcomputing20">
               <div class="col-md-9">
                 <ul>
-                  <li><a href="https://ieeexplore.ieee.org/document/8924661" target="_blank"><b>State of the Art and Research Challenges in the Security Technologies of Network Function Virtualization</b></a><br />
+                  <li><a href="https://ieeexplore.ieee.org/document/8924661" target="_blank"><b>State of the Art and Research Challenges in the Security Technologies of Network Function Virtualization</b></a>
+                    <a href='/paper/journal/2020_NFV_Survey_JournalVersion.pdf' target="_blank"><span class="glyphicon glyphicon-cloud-download"></span></a><br />
                     Xiaochun Wu, <b>Kaiyu Hou</b>, Xue Leng, Xing Li, Yinbo Yu, Bo Wu, Yan Chen<br />
                     IEEE Internet Computing, 2020.</li>
                 </ul>
@@ -313,7 +394,8 @@
             <div class="row" id="computernetworks19">
               <div class="col-md-9">
                 <ul>
-                  <li><a href="https://www.sciencedirect.com/science/article/pii/S1389128618314129" target="_blank"><b>A Lightweight Policy Enforcement System for Resource Protection and Management in the SDN-based Cloud</b></a> <a href='/paper/CN_SDNKeeper_AuthorVersion.pdf' target="_blank"><span class="glyphicon glyphicon-cloud-download"/></a><br />
+                  <li><a href="https://www.sciencedirect.com/science/article/pii/S1389128618314129" target="_blank"><b>A Lightweight Policy Enforcement System for Resource Protection and Management in the SDN-based Cloud</b></a>
+                    <a href='/paper/journal/2019_CN_SDNKeeper_AuthorVersion.pdf' target="_blank"><span class="glyphicon glyphicon-cloud-download"></span></a><br />
                     Xue Leng, <b>Kaiyu Hou</b>, Yan Chen, Kai Bu, Libin Song, You Li<br />
                     Computer Networks, 2019.</li>
                 </ul>
@@ -323,7 +405,8 @@
             <div class="row">
               <div class="col-md-9">
                 <ul>
-                  <li><a href="https://www.sciencedirect.com/science/article/pii/S1084804518303904" target="_blank"><b>COIN: A fast packet inspection method over compressed traffic</b></a><br />
+                  <li><a href="https://www.sciencedirect.com/science/article/pii/S1084804518303904" target="_blank"><b>COIN: A fast packet inspection method over compressed traffic</b></a>
+                    <a href='/paper/journal/2019_COIN_JournalVersion.pdf' target="_blank"><span class="glyphicon glyphicon-cloud-download"></span></a><br />
                     Xiuwen Sun, Hao Li, Dan Zhao, Xingxing Lu, <b>Kaiyu Hou</b>, Chengchen Hu<br />
                     Journal of Network and Computer Applications, 2019.</li>
                 </ul>
@@ -336,7 +419,7 @@
       </div><!-- #primary -->
     </div><!-- #main .wrapper -->
     <footer>
-      <p>Last Update: 2022-05-29</p>
+      <p>Last Update: 2024-07-14</p>
       <p>Visitors:
         <script type="text/javascript">
           var sc_project=12452388;var sc_invisible=0;var sc_security="e6d6e18b";var scJsHost = "https://";
