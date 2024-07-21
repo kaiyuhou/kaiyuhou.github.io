@@ -238,6 +238,10 @@ strong {
 	padding-right: 6px;
 }
 
+#alibabacloud-project li {
+	margin-left: 10px;
+}
+
 .site {
 	padding: 0 24px;
 	background-color: #fff;
