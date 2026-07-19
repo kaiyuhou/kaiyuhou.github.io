@@ -7,8 +7,8 @@
     <meta name="description" content="Research - Homepage of Kaiyu Hou, 侯开宇的个人主页" />
     <base target="_blank" />
     <title>Research - Kaiyu Hou | 侯开宇</title>
-    <link rel='canonical' href='http://kyhou.com/research.html' />
-    <link rel='shortlink' href='http://kyhou.com/research.html' />
+    <link rel='canonical' href='https://kyhou.com/research.html' />
+    <link rel='shortlink' href='https://kyhou.com/research.html' />
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.3.css" rel="stylesheet">
@@ -16,7 +16,7 @@
     <script type='text/javascript' src='js/bootstrap.js'></script>
 
     <!--  Font CSS-->
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+    <!--  Open Sans is self-hosted via css/main.css @font-face -->
 
     <!--  Main CSS-->
     <link href="css/main.css" rel="stylesheet">
@@ -50,12 +50,13 @@
                             <div class="col-md-2 year-right">2020 &#8211; 2022</div>
                         </div>
                         <div class="row col-md-12">
-                            <p>Microservices/serverless architectures bring flexibility but introduce network communication delay.</p>
+                            <p>Microservices/serverless architectures bring flexibility but introduce new networking and security challenges</p>
 <!--                            Especially for the serverless, connection setup latency for the auto scaled ephemeral workers is painful.</p>-->
-                            <p>The connection setup latency is no longer negligible for auto-scaled ephemeral workers, as we cannot simply mitigate it by using persistent connections.</p>
                             <p>We seamlessly integrate <b>QUIC</b> into <b>OpenFaaS/Kubernetes</b> to improve network performance, without any user code change.</p>
                             <p>Systematic benchmarks are also designed for the microservices/serverless network performance measurement.</p>
-                            <p>We also aim to design a <b>clean-slate serverless network architecture</b> for direct function chain communications.</p>
+                            <p>We also design a <b>clean-slate serverless network architecture</b> for direct function chain communications.</p>
+                            <p>Beyond performance, we build cross-layer, non-intrusive provenance tracking to attribute attacks and analyze function behaviors across FaaS layers.</p>
+                            <p><b>Papers:</b> [<a href="/paper/journal/2025_TIFS_FaaSTracker_AuthorVersion.pdf">FaaSTracker TIFS 2025</a>] [<a href="/paper/2024/WWW24_DirectFaaS_AuthorVersion.pdf">DirectFaaS WWW&#8217;24</a>] [<a href="/paper/2022/SoCC22_QFaaS_AuthorVersion.pdf">QFaaS SoCC&#8217;22</a>] [<a href="/paper/2021/CoNext21_QFaaS_AuthorVersion.pdf">QFaaS CoNEXT&#8217;21 Poster</a>]</p>
                         </div>
                         <hr /><!-- END: QUIC block-->
                         <div class="row row-margin-bottom">
@@ -65,6 +66,7 @@
                         <div class="row col-md-12">
                             <p>We design a <b>policy language</b> for resource protection and management of <b>SDN-based Cloud</b>.</p>
                             <p>The policy enforcement system is implemented in the OpenDaylight controller, and deployed on <b>OpenStack</b>.</p>
+                            <p><b>Papers:</b> [<a href="/paper/2018/IWQoS18_SDNKeeper_AuthorVersion.pdf">SDNKeeper IWQoS&#8217;18</a>] [<a href="/paper/journal/2019_CN_SDNKeeper_AuthorVersion.pdf">SDNKeeper CN 2019</a>]</p>
                         </div>
                         <hr /><!-- END: SDNKeeper block-->
                         <div class="row row-margin-bottom">
@@ -75,6 +77,7 @@
                             <p>SDN control channel bandwidth is the major bottleneck of applying reactive forwarding.</p>
                             <p>By leveraging the SDN fine-grained flow control ability, we proposed a routing policy to reduce the control channel bandwidth consumption up to 80%.</p>
                             <p>This policy is implemented in the Floodlight controller under <b>OpenFlow</b>, and deployed on <b>Open vSwitch</b> and ONetSwitch (an <b>OpenFlow/P4</b> white-box switch).</p>
+                            <p><b>Papers:</b> [<a href="/paper/2017/ICNP17_SoftRing_AuthorVersion.pdf">SoftRing ICNP&#8217;17</a>]</p>
                         </div><!--END: div sdn-cloud-->
                         <div class="chapter-header" id="protocols"><span>Formal Methods for Network Protocols</span></div>
                         <div class="row row-margin-bottom">
@@ -85,6 +88,7 @@
                             <p>Traditionally, researchers use secure properties to verify a protocol is safe or find counterexamples.</p>
                             <p>We convert this decision problem into a search problem. Given the model and the properties, we search the boundaries of the configuration space where the system is always secure and reliable.</p>
                             <p>We employ inductive generalization and improved <b>IC3</b> algorithm to determine the space.</p>
+                            <p><b>Papers:</b> [<a href="/paper/2024/ISC24_INCISE_AuthorVersion.pdf">INCISE ISC&#8217;24</a>] [<a href="/paper/2020/Sigcomm20_SecOption_AuthorVersion.pdf">SecOption SIGCOMM&#8217;20 Poster</a>]</p>
                         </div>
                         <hr /><!-- END: safeConfig block-->
                         <div class="row row-margin-bottom">
@@ -96,6 +100,7 @@
                             <p>The <b>4G/5G</b> emergency call protocols and systems are formally specified in <b>TLA+</b>, and then checked by model checker.</p>
                             <p>A complete cellular network testbed from <b>RAN</b>, <b>edge</b> to <b>core</b> (USRP, OpenAirInterface) is built for cross-verification.</p>
                             <p>Serious real-world availability and security pitfalls are discovered, and <b>acknowledged by major cellular carriers</b>.</p>
+                            <p><b>Papers:</b> [<a href="/paper/2021/MobiSys21_ENL_OpenAccessVersion.pdf">Emergency Call MobiSys&#8217;21</a>] [<a href="/paper/2019/Sigcomm19_CellScope_AuthorVersion.pdf">CellScope SIGCOMM&#8217;19 Poster</a>]</p>
                         </div><!-- END: SDNKeeper block-->
                     </div><!--END: div reserach-->
 
@@ -103,7 +108,7 @@
             </div><!-- #primary -->
         </div><!-- #main .wrapper -->
         <footer>
-            <p>Last Update: 2022-05-29</p>
+            <p>Last Update: 2026-07-19</p>
             <p>Visitors:
                 <script type="text/javascript">
                     var sc_project=12452388;var sc_invisible=0;var sc_security="e6d6e18b";var scJsHost = "https://";
